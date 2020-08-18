@@ -1,0 +1,29 @@
+{
+	"auth": {
+		"cognitob3aa02af": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"interactions": {
+		"ampliytestlex": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		}
+	},
+	"function": {
+		"amplifytest0c54f757": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"amplifteststorage": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
